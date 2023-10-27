@@ -33,10 +33,10 @@ const TimeSetter = ({ setMinutes, setSeconds, setTimerRunning }) => {
           />
         </div>
       </div>
-      <div className="row">
+      <div>
         <button
           type="button"
-          className="btn btn-dark mt-5 col-md-6 mx-2"
+          className="btn btn-dark mt-5 mx-2"
           onClick={() => {
             setTimerRunning(true);
           }}
@@ -45,7 +45,7 @@ const TimeSetter = ({ setMinutes, setSeconds, setTimerRunning }) => {
         </button>
         <button
           type="button"
-          className="btn btn-dark mt-5 col-md-6 mx-2"
+          className="btn btn-dark mt-5 mx-2"
           onClick={() => {
             setTimerRunning(false);
           }}
